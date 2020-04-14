@@ -10,7 +10,7 @@ public class DockerController {
 	
 	@GetMapping("/hello")
 	public String getDocker() {
-		return "Jenkins project";
+		return "Jenkins project building";
 	}
 
 }
