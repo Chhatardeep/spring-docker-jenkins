@@ -1,4 +1,5 @@
 FROM openjdk:8u121-jdk-alpine
+RUN apk update
 RUN apk add docker
 EXPOSE 8085
 copy ./target/docker-project-0.0.1-SNAPSHOT.jar docker-project-0.0.1-SNAPSHOT.jar
