@@ -10,7 +10,7 @@ public class DockerController {
 	
 	@GetMapping("/hello")
 	public String getDocker() {
-		return "Jenkins project CI/CD Testing";
+		return "Jenkins project CI/CD is tested successfully and working";
 	}
 
 }
